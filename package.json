@@ -38,4 +38,10 @@
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
   }
+  {
+  "scripts": {
+    "lint": "echo \"No linting yet\"",
+    "test": "echo \"No tests yet\" && exit 0"
+  }
+}
 }
