@@ -1,0 +1,8 @@
+.navbar {
+  background-color: #001F61;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}

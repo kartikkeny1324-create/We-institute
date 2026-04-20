@@ -1,0 +1,11 @@
+.custom-footer {
+  background-color: #001F61;
+}
+
+.custom-footer a {
+  text-decoration: none;
+}
+
+.custom-footer a:hover {
+  text-decoration: underline;
+}

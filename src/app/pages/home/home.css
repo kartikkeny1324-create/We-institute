@@ -1,0 +1,95 @@
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: fadeSlide 15s infinite;
+}
+
+.hero-slide:nth-child(1) {
+  animation-delay: 0s;
+}
+.hero-slide:nth-child(2) {
+  animation-delay: 5s;
+}
+.hero-slide:nth-child(3) {
+  animation-delay: 10s;
+}
+
+@keyframes fadeSlide {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  30% { opacity: 1; }
+  40% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* Welcome Section */
+.welcome-section {
+  background-color: #002366;
+  color: white;
+  padding: 60px 20px;
+}
+
+/* Quote */
+.quote h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Partner Section */
+.partner-section {
+  background: #f9f9f9;
+  padding: 60px 0;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  animation: scroll 25s linear infinite;
+}
+
+.slide {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  max-width: 150px;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .hero {
+    height: 40vh;
+  }
+
+  .quote h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .slide img {
+    max-width: 100px;
+  }
+}

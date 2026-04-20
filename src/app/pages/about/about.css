@@ -1,0 +1,181 @@
+/* Navbar */
+.navbar {
+  background-color: #001F61;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: white;
+}
+
+.navbar .navbar-brand img {
+  height: 50px !important;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+/* Icon Box */
+.icon-box {
+  text-align: center;
+  padding: 20px;
+}
+
+.icon-box i {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+/* Footer */
+.custom-footer {
+  background-color: #001F61;
+}
+
+/* What We Do */
+#what-we-do h2 {
+  font-weight: bold;
+  color: #001F61;
+}
+
+#what-we-do .icon-box {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 30px 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+#what-we-do .icon-box:hover {
+  background-color: #e9f1ff;
+  transform: translateY(-5px);
+}
+
+#what-we-do i {
+  font-size: 2.5rem;
+  color: #007bff;
+}
+
+/* FAQ Section */
+.faq-section {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.accordion-button {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.accordion-body {
+  font-size: 15px;
+  color: #333;
+}
+
+/* Team Cards */
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
+
+/* Footer Social Icons */
+.footer-link i {
+  font-size: 20px;
+  color: #ffffff !important;
+  transition: color 0.3s;
+}
+
+.footer-link i:hover {
+  color: #25D366;
+}
+
+/* ================================
+   MOBILE RESPONSIVENESS
+   ================================ */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    padding: 0.4rem 1rem;
+  }
+
+  .navbar-brand img {
+    height: 35px !important;
+  }
+
+  .navbar-brand span {
+    font-size: 0.95rem;
+  }
+
+  .navbar-toggler {
+    border-color: #fff;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255,255,255,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  /* Headings */
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p.lead {
+    font-size: 0.95rem;
+  }
+
+  /* Mission */
+  #mission .icon-box {
+    margin-bottom: 20px;
+  }
+
+  /* What We Do */
+  #what-we-do .icon-box {
+    padding: 20px 15px;
+  }
+
+  #what-we-do h5 {
+    font-size: 1rem;
+  }
+
+  #what-we-do p {
+    font-size: 0.9rem;
+  }
+
+  /* Team */
+  .team-section .card img {
+    width: 150px !important;
+    height: 200px !important;
+  }
+
+  .team-section h6 {
+    font-size: 0.9rem;
+  }
+
+  .team-section p {
+    font-size: 0.8rem;
+  }
+
+  /* Footer */
+  .custom-footer {
+    text-align: start;
+  }
+
+  .custom-footer img {
+    margin: 0 auto 15px;
+  }
+
+  .custom-footer .col-md-4 {
+    margin-bottom: 20px;
+  }
+
+  .custom-footer h5 {
+    margin-top: 15px;
+  }
+}
